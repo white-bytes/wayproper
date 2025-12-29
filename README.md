@@ -1,36 +1,48 @@
-# Way Proper Project
+# ⚡ Node.js Starter Function
 
-## Domain
-> [wayproper.com](https://www.wayproper.com)
+A simple starter function. Edit `src/main.js` to get started and create something awesome! 🚀
 
-## Frontend
+## 🧰 Usage
 
-- [Astro](https://astro.build/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blobs)
+### GET /ping
 
-## Backend
+- Returns a "Pong" message.
 
-- [Netlify Functions](https://docs.netlify.com/functions/overview/)
-- [Netlify Edge Functions](https://docs.netlify.com/functions/edge-functions/)
-- [Netlify Blobs](https://docs.netlify.com/blobs/overview/)
-- [Netlify Image CDN](https://docs.netlify.com/image-cdn/overview/)
+**Response**
 
-## Deploying to Netlify
+Sample `200` Response:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/astro-platform-starter)
-
-## Developing Locally
-
-| Prerequisites                                                                |
-| :--------------------------------------------------------------------------- |
-| [Node.js](https://nodejs.org/) v18.20.8+.                                    |
-| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
-
-1. Clone this repository, then run `npm install` in its root directory.
-
-2. Recommended: link your local repository to a Netlify project. This will ensure you're using the same runtime version for both local development and your deployed project.
-
-```sh
-netlify link
+```text
+Pong
 ```
+
+### GET, POST, PUT, PATCH, DELETE /
+
+- Returns a "Learn More" JSON response.
+
+**Response**
+
+Sample `200` Response:
+
+```json
+{
+  "motto": "Build like a team of hundreds_",
+  "learn": "https://appwrite.io/docs",
+  "connect": "https://appwrite.io/discord",
+  "getInspired": "https://builtwith.appwrite.io"
+}
+```
+
+## ⚙️ Configuration
+
+| Setting           | Value         |
+| ----------------- | ------------- |
+| Runtime           | Node (18.0)   |
+| Entrypoint        | `src/main.js` |
+| Build Commands    | `npm install` |
+| Permissions       | `any`         |
+| Timeout (Seconds) | 15            |
+
+## 🔒 Environment Variables
+
+No environment variables required.
