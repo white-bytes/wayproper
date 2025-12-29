@@ -1,21 +1,20 @@
-# Astro on Netlify Platform Starter
+# Way Proper Project
 
-[Live Demo](https://astro-platform-starter.netlify.app/)
+## Domain
+> [wayproper.com](https://www.wayproper.com)
 
-A modern starter based on Astro.js, Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blobs).
+## Frontend
 
-## Astro Commands
+- [Astro](https://astro.build/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blobs)
 
-All commands are run from the root of the project, from a terminal:
+## Backend
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- [Netlify Functions](https://docs.netlify.com/functions/overview/)
+- [Netlify Edge Functions](https://docs.netlify.com/functions/edge-functions/)
+- [Netlify Blobs](https://docs.netlify.com/blobs/overview/)
+- [Netlify Image CDN](https://docs.netlify.com/image-cdn/overview/)
 
 ## Deploying to Netlify
 
@@ -32,12 +31,6 @@ All commands are run from the root of the project, from a terminal:
 
 2. Recommended: link your local repository to a Netlify project. This will ensure you're using the same runtime version for both local development and your deployed project.
 
-```
+```sh
 netlify link
-```
-
-3. Run the Astro.js development server:
-
-```
-npm run dev
 ```
