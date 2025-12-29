@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "wayproper.com",
+    "description": "Way Proper - Real life.",
+    "author": "Brandon West",
+    "email": "bran@isbrandon.org",
+    "base_url": "https://www.wayproper.com",
+    "logo": "/src/assets/images/isBrandon-logo.png",
+    "logo_darkmode": "/src/assets/images/isBrandon-logo.png",
+    "logo_width": "127",
+    "logo_height": "32",
+    "logo_text": "wayproper"
+  },
+  "settings": {
+    "search": true,
+    "theme_switcher": true
+  },
+  "params": {
+    "footer_contact": {
+      "enable": true,
+      "action": "#"
+    },
+    "copyright": "Beautiful world <a class=\"text-primary hover:underline no-underline\" href=\"/src/assets/images/man-alone-leans.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Way Proper</a> Copyright &copy; 2025."
+  },
+  "navigation_button": {
+    "enable": true,
+    "label": "Research",
+    "link": "/research"
+  },
+  "metadata": {
+    "meta_author": "Way Proper",
+    "meta_description": "Way Proper - Real life.",
+    "meta_keywords": "store, real life, world, studies"
+  }
+}

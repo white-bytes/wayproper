@@ -1,0 +1,19 @@
+{
+    "main": [
+        {
+            "name": "GitHub",
+            "href": "https://github.com/white-bytes/wayproper",
+            "label": "GitHub"
+        },
+        {
+            "name": "Github-isbrandonw",
+            "href": "https://github.com/isbrandonw",
+            "label": "Github-isbrandonw"
+        },
+        {
+            "name": "x",
+            "href": "https://x.com/whitebytes",
+            "label": "X"
+        }
+    ]
+}
