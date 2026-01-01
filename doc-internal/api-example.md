@@ -21,7 +21,7 @@ export const GET: APIRoute = async ({ params, request }) => {
 
 export const POST: APIRoute = async ({ request }) => {
   const body = await request.json();
-  
+
   // Do something with data...
 
   return new Response(JSON.stringify({
